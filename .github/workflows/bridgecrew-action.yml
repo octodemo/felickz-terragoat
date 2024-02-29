@@ -31,7 +31,7 @@ jobs:
         GITHUB_SERVER_URL: $GITHUB_SERVER_URL  
     
     - name: Expose report
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: SARIF results
         path: results.sarif
